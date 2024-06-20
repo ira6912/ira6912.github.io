@@ -1,0 +1,32 @@
+/* Загальний стиль таблиці */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  /* Стиль заголовків таблиці */
+  th {
+    font-weight: bold;
+  }
+  
+  /* Стиль комірок таблиці */
+  th, td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Додавання границі таблиці */
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  /* Заголовок таблиці */
+  h3 {
+    text-align: center;
+  }
+  
+  
+  
+  
+  
