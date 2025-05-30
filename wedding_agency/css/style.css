@@ -189,7 +189,8 @@ img {
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
-.navbar-form input {
+.navbar-form input,
+.my-modal-content textarea {
      border: none !important;
 }
 
@@ -1094,7 +1095,8 @@ a {
      color: #555;
    }
    
-   .my-modal-content input {
+   .my-modal-content input,
+   .my-modal-content textarea {
      width: 100%;
      padding: 10px;
      border: 1px solid #ccc;
@@ -1102,7 +1104,8 @@ a {
      font-size: 14px;
    }
    
-   .my-modal-content input:focus {
+   .my-modal-content input:focus,
+   .my-modal-content textarea {
      outline: none;
      border-color: #007bff;
      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
